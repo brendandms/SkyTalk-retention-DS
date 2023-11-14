@@ -1,0 +1,56 @@
+
+# cp4admin.customer_retention.retention_ml.customerchurn.Error
+cp4admin.customer_retention.retention_ml.customerchurn.Error#concept.label = Output error
+cp4admin.customer_retention.retention_ml.customerchurn.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = et nytt {Output error} hvor {0, code} {1, message} 
+cp4admin.customer_retention.retention_ml.customerchurn.Error.code#phrase.action = sett coden på {this} til {code}
+cp4admin.customer_retention.retention_ml.customerchurn.Error.code#phrase.navigation = {code} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Error.message#phrase.action = sett messagen på {this} til {message}
+cp4admin.customer_retention.retention_ml.customerchurn.Error.message#phrase.navigation = {message} på {this}
+
+# cp4admin.customer_retention.retention_ml.customerchurn.Input
+cp4admin.customer_retention.retention_ml.customerchurn.Input#concept.label = ML model input
+cp4admin.customer_retention.retention_ml.customerchurn.Input.Input(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.Integer)#phrase.navigation = et nytt {ML model input} hvor {0, gender} {1, status} {2, household} {3, est income} {4, car owner} {5, age} {6, paymethod} {7, usage} {8, rateplan} 
+cp4admin.customer_retention.retention_ml.customerchurn.Input.age#phrase.action = sett agen på {this} til {age}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.age#phrase.addition_setter = legg {age} til agen på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.age#phrase.navigation = {age} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.age#phrase.subtraction_setter = trekk {age} fra agen på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.carOwner#phrase.action = sett car owneren på {this} til {car owner}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.carOwner#phrase.navigation = {car owner} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.estIncome#phrase.action = sett est incomen på {this} til {est income}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.estIncome#phrase.addition_setter = legg {est income} til est incomen på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.estIncome#phrase.navigation = {est income} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.estIncome#phrase.subtraction_setter = trekk {est income} fra est incomen på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.gender#phrase.action = sett genderen på {this} til {gender}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.gender#phrase.navigation = {gender} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.household#phrase.action = sett householden på {this} til {household}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.household#phrase.addition_setter = legg {household} til householden på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.household#phrase.navigation = {household} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.household#phrase.subtraction_setter = trekk {household} fra householden på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.paymethod#phrase.action = sett paymethoden på {this} til {paymethod}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.paymethod#phrase.navigation = {paymethod} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.rateplan#phrase.action = sett rateplanen på {this} til {rateplan}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.rateplan#phrase.addition_setter = legg {rateplan} til rateplanen på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.rateplan#phrase.navigation = {rateplan} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.rateplan#phrase.subtraction_setter = trekk {rateplan} fra rateplanen på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.status#phrase.action = sett statusen på {this} til {status}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.status#phrase.navigation = {status} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.usage#phrase.action = sett usagen på {this} til {usage}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.usage#phrase.addition_setter = legg {usage} til usagen på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.usage#phrase.navigation = {usage} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Input.usage#phrase.subtraction_setter = trekk {usage} fra usagen på {this}
+
+# cp4admin.customer_retention.retention_ml.customerchurn.Output
+cp4admin.customer_retention.retention_ml.customerchurn.Output#concept.label = ML model output
+cp4admin.customer_retention.retention_ml.customerchurn.Output.Output(java.lang.String,java.util.List)#phrase.navigation = et nytt {ML model output} hvor {0, prediction} {1, probability} 
+cp4admin.customer_retention.retention_ml.customerchurn.Output.addTo_probability(java.lang.Double)#phrase.action = legg {0} til probabilityene til {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.clear_probability()#phrase.action = fjern probabilityene på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.error#phrase.action = sett erroren på {this} til {error}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.error#phrase.clearer = fjern erroren på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.error#phrase.navigation = {error} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.inError()#phrase.navigation = {this} er in error
+cp4admin.customer_retention.retention_ml.customerchurn.Output.prediction#phrase.action = sett predictionen på {this} til {prediction}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.prediction#phrase.navigation = {prediction} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.probability#phrase.action = sett probabilityene på {this} til {probability}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.probability#phrase.navigation = {probability} på {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.removeFrom_probability(java.lang.Double)#phrase.action = fjern {0} fra probabilityene til {this}
+cp4admin.customer_retention.retention_ml.customerchurn.Output.run(cp4admin.customer_retention.retention_ml.customerchurn.Input)#phrase.navigation = predict({0})

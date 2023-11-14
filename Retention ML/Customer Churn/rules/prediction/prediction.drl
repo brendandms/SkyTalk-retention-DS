@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ilog.rules.studio.model.brl:ActionRule xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:ilog.rules.studio.model.brl="http://ilog.rules.studio/model/brl.ecore">
+  <name>customerChurn</name>
+  <uuid>ce6e1e7e-1ed8-423f-8950-0d285bcf668a</uuid>
+  <locale>en_US</locale>
+  <definition><![CDATA[set decision to predict( 'Input mapping' ) ;]]></definition>
+</ilog.rules.studio.model.brl:ActionRule>

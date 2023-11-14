@@ -1,0 +1,116 @@
+
+package cp4admin.customer_retention.retention_ml.customerchurn;
+
+
+class Error
+        property ads.typeId "2"
+        #de.generated
+{
+    string code
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "code";
+    string message
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "message";
+    Error(string code, string message)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Error()
+                #dataio.default;
+}
+
+class Input
+        property ads.typeId "1"
+        property com.fasterxml.jackson.annotation.JsonPropertyOrder "{Gender,Status,Household,Est Income,Car Owner,Age,Paymethod,Usage,RatePlan}"
+        #de.generated
+{
+    java.lang.Double age
+                property ads.attributeId "6"
+                property com.fasterxml.jackson.annotation.JsonProperty "Age";
+    string carOwner
+                property ads.attributeId "5"
+                property com.fasterxml.jackson.annotation.JsonProperty "Car Owner";
+    java.lang.Double estIncome
+                property ads.attributeId "4"
+                property com.fasterxml.jackson.annotation.JsonProperty "Est Income";
+    string gender
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "Gender";
+    java.lang.Integer household
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "Household";
+    string paymethod
+                property ads.attributeId "7"
+                property com.fasterxml.jackson.annotation.JsonProperty "Paymethod";
+    java.lang.Integer rateplan
+                property ads.attributeId "9"
+                property com.fasterxml.jackson.annotation.JsonProperty "RatePlan";
+    string status
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "Status";
+    java.lang.Double usage
+                property ads.attributeId "8"
+                property com.fasterxml.jackson.annotation.JsonProperty "Usage";
+    Input(string gender, string status, java.lang.Integer household, java.lang.Double estIncome, string carOwner, java.lang.Double age, string paymethod, java.lang.Double usage, java.lang.Integer rateplan)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Input()
+                #dataio.default;
+}
+
+class Output
+        property ads.typeId "3"
+        property com.fasterxml.jackson.annotation.JsonIgnoreProperties {
+            ignoreUnknown "true"
+        }
+        #de.generated
+{
+    cp4admin.customer_retention.retention_ml.customerchurn.Error error
+                property ads.attributeId "3"
+                property com.fasterxml.jackson.annotation.JsonProperty "error";
+    string prediction
+                property ads.attributeId "1"
+                property com.fasterxml.jackson.annotation.JsonProperty "prediction";
+    java.util.List probability domain 0,* class java.lang.Double
+                property ads.attributeId "2"
+                property com.fasterxml.jackson.annotation.JsonProperty "probability";
+    Output(string prediction, 
+        java.util.List probability domain 0,* class java.lang.Double)
+                #autoExpand
+                #beanConstructor
+                property groups "BALA"
+                #prototype;
+    Output()
+                #dataio.default;
+    void addTo_probability(java.lang.Double probability)
+                property collectionAttribute "probability"
+                #update;
+    void clear_probability()
+                property collectionAttribute "probability"
+                #update;
+    boolean inError()
+                property de.generated {
+                    $gen "com.ibm.decision.ml.integration.xom.InErrorTestGenerator",
+                    $target "BOM"
+                };
+    void removeFrom_probability(java.lang.Double probability)
+                property collectionAttribute "probability"
+                #update;
+    static Output run(cp4admin.customer_retention.retention_ml.customerchurn.Input input)
+                #pureFunction;
+    static Output run(com.ibm.decision.run.RunContext runContext, cp4admin.customer_retention.retention_ml.customerchurn.Input input)
+                property de.generated {
+                    $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
+                    $target "BOM",
+                    providerInfoId "cp4admin/Customer-retention/SkyTalk ML provider1699959399232f3571a6a-14c1-4726-9fba-b2c4c02ccb57"
+                }
+                #pureFunction;
+    void set_probability(java.util.Collection probability domain 0,* class java.lang.Double)
+                property collectionAttribute "probability"
+                #update;
+}
+
