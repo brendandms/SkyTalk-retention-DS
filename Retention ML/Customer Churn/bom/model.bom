@@ -106,7 +106,7 @@ class Output
                 property de.generated {
                     $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
                     $target "BOM",
-                    providerInfoId "cp4admin/Customer-retention/SkyTalk ML provider1699959399232f3571a6a-14c1-4726-9fba-b2c4c02ccb57"
+                    providerInfoId "cp4admin/Customer-retention/SkyTalk ML provider16999593992325a84d1ed-419a-4ddc-af16-41da4b7b1b2c"
                 }
                 #pureFunction;
     void set_probability(java.util.Collection probability domain 0,* class java.lang.Double)

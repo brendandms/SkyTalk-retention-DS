@@ -1,9 +1,9 @@
 {
   "metadata" : {
-    "id" : "f3571a6a-14c1-4726-9fba-b2c4c02ccb57",
+    "id" : "5a84d1ed-419a-4ddc-af16-41da4b7b1b2c",
     "name" : "churn",
-    "modified_at" : "2023-11-14T10:29:18.028Z",
-    "created_at" : "2023-11-14T10:29:18.028Z",
+    "modified_at" : "2023-11-15T11:25:05.942Z",
+    "created_at" : "2023-11-15T11:25:05.942Z",
     "owner" : "IBMid-69100073FK",
     "space_id" : "a955a48c-5052-41e4-b57c-1f46aee66e26"
   },
@@ -15,9 +15,9 @@
     "status" : {
       "state" : "ready",
       "online_url" : {
-        "url" : "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/f3571a6a-14c1-4726-9fba-b2c4c02ccb57/predictions"
+        "url" : "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/5a84d1ed-419a-4ddc-af16-41da4b7b1b2c/predictions"
       },
-      "serving_urls" : [ "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/f3571a6a-14c1-4726-9fba-b2c4c02ccb57/predictions" ]
+      "serving_urls" : [ "https://eu-gb.ml.cloud.ibm.com/ml/v4/deployments/5a84d1ed-419a-4ddc-af16-41da4b7b1b2c/predictions" ]
     },
     "asset" : {
       "id" : "fc27ecc1-477a-436d-8c00-c4d3b249c180"
@@ -25,5 +25,5 @@
   },
   "name" : "churn",
   "status" : "ready",
-  "deployedAt" : "2023-11-14T10:29:18.028Z"
+  "deployedAt" : "2023-11-15T11:25:05.942Z"
 }

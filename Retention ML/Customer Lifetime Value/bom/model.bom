@@ -93,7 +93,7 @@ class Output
                 property de.generated {
                     $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
                     $target "BOM",
-                    providerInfoId "cp4admin/Customer-retention/SkyTalk ML provider16999593992324b2fbcb7-a354-40c3-a809-3ae0b09cadd3"
+                    providerInfoId "cp4admin/Customer-retention/SkyTalk ML provider1699959399232b1c7535f-c7c4-43b7-b95a-bf223311ebf9"
                 }
                 #pureFunction;
 }
