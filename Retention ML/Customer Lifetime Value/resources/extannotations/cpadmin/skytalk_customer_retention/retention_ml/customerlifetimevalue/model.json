@@ -1,0 +1,72 @@
+{
+  "metadata" : {
+    "id" : "f3a0afae-aaee-4079-84b1-b41ecedb389b",
+    "name" : "SkyTalk lifetime value prediction - P4 Random Forest Regressor - Model",
+    "modified_at" : "2023-11-14T10:21:40.559Z",
+    "created_at" : "2023-11-14T10:21:40.431Z",
+    "owner" : "IBMid-69100073FK",
+    "space_id" : "a955a48c-5052-41e4-b57c-1f46aee66e26"
+  },
+  "entity" : {
+    "label_column" : "LifetimeValue",
+    "content_import_state" : "completed",
+    "metrics" : [ {
+      "timestamp" : "2023-11-14T10:12:38.000Z",
+      "ml_metrics" : { },
+      "context" : {
+        "phase" : "hpo_c_output"
+      }
+    } ],
+    "type" : "wml-hybrid_0.1",
+    "schemas" : {
+      "input" : [ {
+        "id" : "auto_ai_kb_input_schema",
+        "fields" : [ {
+          "name" : "Gender",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Status",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Household",
+          "type" : "integer",
+          "nullable" : true
+        }, {
+          "name" : "Est Income",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Car Owner",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Age",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "Paymethod",
+          "type" : "other",
+          "nullable" : true
+        }, {
+          "name" : "Usage",
+          "type" : "double",
+          "nullable" : true
+        }, {
+          "name" : "RatePlan",
+          "type" : "integer",
+          "nullable" : true
+        } ]
+      } ],
+      "output" : [ ]
+    }
+  },
+  "system" : {
+    "warnings" : [ ]
+  },
+  "id" : "f3a0afae-aaee-4079-84b1-b41ecedb389b",
+  "name" : "SkyTalk lifetime value prediction - P4 Random Forest Regressor - Model",
+  "trainedAt" : "2023-11-14T10:21:40.431Z",
+  "modifiedAt" : "2023-11-14T10:21:40.559Z"
+}

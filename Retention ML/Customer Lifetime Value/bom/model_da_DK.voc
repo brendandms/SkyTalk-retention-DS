@@ -1,53 +1,53 @@
 
-# cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error#concept.label = Output error
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = en ny {Output error} hvor {0, code} {1, message} 
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error.code#phrase.action = sæt coden på {this} til {code}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error.code#phrase.navigation = {code} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error.message#phrase.action = sæt messagen på {this} til {message}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error.message#phrase.navigation = {message} på {this}
+# cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error#concept.label = Output error
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = en ny {Output error} hvor {0, code} {1, message} 
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error.code#phrase.action = sæt coden på {this} til {code}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error.code#phrase.navigation = {code} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error.message#phrase.action = sæt messagen på {this} til {message}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error.message#phrase.navigation = {message} på {this}
 
-# cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input#concept.label = ML model input
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.Input(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.Integer)#phrase.navigation = en ny {ML model input} hvor {0, gender} {1, status} {2, household} {3, est income} {4, car owner} {5, age} {6, paymethod} {7, usage} {8, rateplan} 
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.action = sæt agen på {this} til {age}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.addition_setter = føj {age} til agen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.navigation = {age} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.subtraction_setter = træk {age} fra agen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.carOwner#phrase.action = sæt car owneren på {this} til {car owner}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.carOwner#phrase.navigation = {car owner} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.action = sæt est incomen på {this} til {est income}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.addition_setter = føj {est income} til est incomen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.navigation = {est income} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.subtraction_setter = træk {est income} fra est incomen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.gender#phrase.action = sæt genderen på {this} til {gender}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.gender#phrase.navigation = {gender} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.action = sæt householden på {this} til {household}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.addition_setter = føj {household} til householden på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.navigation = {household} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.subtraction_setter = træk {household} fra householden på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.paymethod#phrase.action = sæt paymethoden på {this} til {paymethod}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.paymethod#phrase.navigation = {paymethod} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.action = sæt rateplanen på {this} til {rateplan}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.addition_setter = føj {rateplan} til rateplanen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.navigation = {rateplan} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.subtraction_setter = træk {rateplan} fra rateplanen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.status#phrase.action = sæt statusen på {this} til {status}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.status#phrase.navigation = {status} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.action = sæt usagen på {this} til {usage}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.addition_setter = føj {usage} til usagen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.navigation = {usage} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.subtraction_setter = træk {usage} fra usagen på {this}
+# cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input#concept.label = ML model input
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.Input(java.lang.String,java.lang.String,java.lang.Integer,java.lang.Double,java.lang.String,java.lang.Double,java.lang.String,java.lang.Double,java.lang.Integer)#phrase.navigation = en ny {ML model input} hvor {0, gender} {1, status} {2, household} {3, est income} {4, car owner} {5, age} {6, paymethod} {7, usage} {8, rateplan} 
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.action = sæt agen på {this} til {age}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.addition_setter = føj {age} til agen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.navigation = {age} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.age#phrase.subtraction_setter = træk {age} fra agen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.carOwner#phrase.action = sæt car owneren på {this} til {car owner}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.carOwner#phrase.navigation = {car owner} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.action = sæt est incomen på {this} til {est income}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.addition_setter = føj {est income} til est incomen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.navigation = {est income} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.estIncome#phrase.subtraction_setter = træk {est income} fra est incomen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.gender#phrase.action = sæt genderen på {this} til {gender}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.gender#phrase.navigation = {gender} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.action = sæt householden på {this} til {household}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.addition_setter = føj {household} til householden på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.navigation = {household} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.household#phrase.subtraction_setter = træk {household} fra householden på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.paymethod#phrase.action = sæt paymethoden på {this} til {paymethod}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.paymethod#phrase.navigation = {paymethod} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.action = sæt rateplanen på {this} til {rateplan}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.addition_setter = føj {rateplan} til rateplanen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.navigation = {rateplan} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.rateplan#phrase.subtraction_setter = træk {rateplan} fra rateplanen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.status#phrase.action = sæt statusen på {this} til {status}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.status#phrase.navigation = {status} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.action = sæt usagen på {this} til {usage}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.addition_setter = føj {usage} til usagen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.navigation = {usage} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input.usage#phrase.subtraction_setter = træk {usage} fra usagen på {this}
 
-# cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output#concept.label = ML model output
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.Output(java.lang.Double)#phrase.navigation = en ny {ML model output} hvor {0, prediction} 
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.error#phrase.action = sæt erroren på {this} til {error}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.error#phrase.clearer = fjern erroren på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.error#phrase.navigation = {error} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.inError()#phrase.navigation = {this} er in error
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.action = sæt predictionen på {this} til {prediction}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.addition_setter = føj {prediction} til predictionen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.navigation = {prediction} på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.subtraction_setter = træk {prediction} fra predictionen på {this}
-cp4admin.customer_retention.retention_ml.customerlifetimevalue.Output.run(cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input)#phrase.navigation = predict({0})
+# cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output#concept.label = ML model output
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.Output(java.lang.Double)#phrase.navigation = en ny {ML model output} hvor {0, prediction} 
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.error#phrase.action = sæt erroren på {this} til {error}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.error#phrase.clearer = fjern erroren på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.error#phrase.navigation = {error} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.inError()#phrase.navigation = {this} er in error
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.action = sæt predictionen på {this} til {prediction}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.addition_setter = føj {prediction} til predictionen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.navigation = {prediction} på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.prediction#phrase.subtraction_setter = træk {prediction} fra predictionen på {this}
+cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Output.run(cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input)#phrase.navigation = predict({0})

@@ -1,5 +1,5 @@
 
-package cp4admin.customer_retention.retention_ml.customerchurn;
+package cpadmin.skytalk_customer_retention.retention_ml.customerchurn;
 
 
 class Error
@@ -69,7 +69,7 @@ class Output
         }
         #de.generated
 {
-    cp4admin.customer_retention.retention_ml.customerchurn.Error error
+    cpadmin.skytalk_customer_retention.retention_ml.customerchurn.Error error
                 property ads.attributeId "3"
                 property com.fasterxml.jackson.annotation.JsonProperty "error";
     string prediction
@@ -100,13 +100,13 @@ class Output
     void removeFrom_probability(java.lang.Double probability)
                 property collectionAttribute "probability"
                 #update;
-    static Output run(cp4admin.customer_retention.retention_ml.customerchurn.Input input)
+    static Output run(cpadmin.skytalk_customer_retention.retention_ml.customerchurn.Input input)
                 #pureFunction;
-    static Output run(com.ibm.decision.run.RunContext runContext, cp4admin.customer_retention.retention_ml.customerchurn.Input input)
+    static Output run(com.ibm.decision.run.RunContext runContext, cpadmin.skytalk_customer_retention.retention_ml.customerchurn.Input input)
                 property de.generated {
                     $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
                     $target "BOM",
-                    providerInfoId "cp4admin/Customer-retention/SkyTalk ML provider16999593992325a84d1ed-419a-4ddc-af16-41da4b7b1b2c"
+                    providerInfoId "cpadmin/SkyTalk-Customer-Retention/SkyTalk ML provider170006024435482a3b6ad-3184-4cc2-9a37-6b9503161cbe"
                 }
                 #pureFunction;
     void set_probability(java.util.Collection probability domain 0,* class java.lang.Double)

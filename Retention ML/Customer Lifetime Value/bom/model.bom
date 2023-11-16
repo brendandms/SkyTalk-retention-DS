@@ -1,5 +1,5 @@
 
-package cp4admin.customer_retention.retention_ml.customerlifetimevalue;
+package cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue;
 
 
 class Error
@@ -69,7 +69,7 @@ class Output
         }
         #de.generated
 {
-    cp4admin.customer_retention.retention_ml.customerlifetimevalue.Error error
+    cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Error error
                 property ads.attributeId "2"
                 property com.fasterxml.jackson.annotation.JsonProperty "error";
     java.lang.Double prediction
@@ -87,13 +87,13 @@ class Output
                     $gen "com.ibm.decision.ml.integration.xom.InErrorTestGenerator",
                     $target "BOM"
                 };
-    static Output run(cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input input)
+    static Output run(cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input input)
                 #pureFunction;
-    static Output run(com.ibm.decision.run.RunContext runContext, cp4admin.customer_retention.retention_ml.customerlifetimevalue.Input input)
+    static Output run(com.ibm.decision.run.RunContext runContext, cpadmin.skytalk_customer_retention.retention_ml.customerlifetimevalue.Input input)
                 property de.generated {
                     $gen "com.ibm.decision.ml.integration.xom.PredictionRunGenerator",
                     $target "BOM",
-                    providerInfoId "cp4admin/Customer-retention/SkyTalk ML provider1699959399232b1c7535f-c7c4-43b7-b95a-bf223311ebf9"
+                    providerInfoId "cpadmin/SkyTalk-Customer-Retention/SkyTalk ML provider1700060244354fdc7f1d8-a306-4e43-8aec-cbe4c5eb1e93"
                 }
                 #pureFunction;
 }

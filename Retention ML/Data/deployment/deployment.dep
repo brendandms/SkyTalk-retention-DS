@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.customer_retention.retention_ml:data" ruleAppVersion="LATEST-SNAPSHOT" packageName="decisions.mlsamples.telco_retention.data" managingXom="true">
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cpadmin.skytalk_customer_retention.retention_ml:data" ruleAppVersion="LATEST-SNAPSHOT" packageName="decisions.mlsamples.telco_retention.data" managingXom="true">
   <name>data</name>
   <uuid>82f890f2-0cea-478e-a99e-5f8d3161bb57</uuid>
   <locales>en_US</locales>

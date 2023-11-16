@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cp4admin.customer_retention.retention_ml:customerLifetimeValue" ruleAppVersion="LATEST-SNAPSHOT" packageName="decisions.mlsamples.telco_retention.customerLifetimeValue" managingXom="true">
+<com.ibm.rules.studio.model.decisionservice:Deployment xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:com.ibm.rules.studio.model.decisionservice="http://com.ibm.rules.studio/model/decisionservice.ecore" ruleAppName="cpadmin.skytalk_customer_retention.retention_ml:customerLifetimeValue" ruleAppVersion="LATEST-SNAPSHOT" packageName="decisions.mlsamples.telco_retention.customerLifetimeValue" managingXom="true">
   <name>customerLifetimeValue</name>
   <uuid>ad4718c8-65e2-4daa-b32e-5d16e989f758</uuid>
   <locales>en_US</locales>

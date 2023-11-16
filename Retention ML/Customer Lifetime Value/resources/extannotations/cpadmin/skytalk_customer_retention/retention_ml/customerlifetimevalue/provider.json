@@ -1,0 +1,17 @@
+{
+  "name" : "cpadmin/SkyTalk-Customer-Retention/SkyTalk ML provider1700060244354",
+  "type" : "WML",
+  "description" : "",
+  "updateTime" : 1700060244681,
+  "authInfo" : {
+    "authType" : "IAM",
+    "apiKey" : null,
+    "authUrl" : "https://iam.bluemix.net/identity/token"
+  },
+  "providerAdditionalInfo" : {
+    "providerType" : "WML",
+    "mlUrl" : "https://eu-gb.ml.cloud.ibm.com/ml/v4/",
+    "spaceId" : "a955a48c-5052-41e4-b57c-1f46aee66e26"
+  },
+  "version" : "V1"
+}

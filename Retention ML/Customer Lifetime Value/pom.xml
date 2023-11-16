@@ -2,12 +2,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>cp4admin.customer_retention.retention_ml</groupId>
+        <groupId>cpadmin.skytalk_customer_retention.retention_ml</groupId>
         <artifactId>retentionML</artifactId>
         <version>1.0.0-SNAPSHOT</version>
     </parent>
 
-    <groupId>cp4admin.customer_retention.retention_ml</groupId>
+    <groupId>cpadmin.skytalk_customer_retention.retention_ml</groupId>
     <artifactId>customerLifetimeValue</artifactId>
     <version>LATEST-SNAPSHOT</version>
     
@@ -38,7 +38,7 @@
 
 <dependencies>
         <dependency>
-            <groupId>cp4admin.customer_retention.retention_ml</groupId>
+            <groupId>cpadmin.skytalk_customer_retention.retention_ml</groupId>
             <artifactId>data</artifactId>
             <version>LATEST-SNAPSHOT</version>
         </dependency>
